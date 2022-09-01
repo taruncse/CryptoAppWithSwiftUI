@@ -2,7 +2,6 @@
 //  CryptoAppWithSwiftUIApp.swift
 //  CryptoAppWithSwiftUI
 //
-//  Created by DreamOnline on 1/9/22.
 //
 
 import SwiftUI
