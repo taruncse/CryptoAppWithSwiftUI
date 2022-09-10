@@ -14,6 +14,7 @@
 		4F0BA78828BFE3A9006B396F /* CryptoAppWithSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BA78728BFE3A9006B396F /* CryptoAppWithSwiftUITests.swift */; };
 		4F0BA79228BFE3A9006B396F /* CryptoAppWithSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BA79128BFE3A9006B396F /* CryptoAppWithSwiftUIUITests.swift */; };
 		4F0BA79428BFE3A9006B396F /* CryptoAppWithSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BA79328BFE3A9006B396F /* CryptoAppWithSwiftUIUITestsLaunchTests.swift */; };
+		4FCFAF1A28CC4FC000981DB8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCFAF1928CC4FC000981DB8 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4F0BA78D28BFE3A9006B396F /* CryptoAppWithSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoAppWithSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0BA79128BFE3A9006B396F /* CryptoAppWithSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppWithSwiftUIUITests.swift; sourceTree = "<group>"; };
 		4F0BA79328BFE3A9006B396F /* CryptoAppWithSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppWithSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4FCFAF1928CC4FC000981DB8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		4F0BA77528BFE3A8006B396F /* CryptoAppWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				4FCFAF1828CC4FAE00981DB8 /* Extensions */,
 				4F0BA77628BFE3A8006B396F /* CryptoAppWithSwiftUIApp.swift */,
 				4F0BA77828BFE3A8006B396F /* ContentView.swift */,
 				4F0BA77A28BFE3A9006B396F /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				4F0BA79328BFE3A9006B396F /* CryptoAppWithSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = CryptoAppWithSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		4FCFAF1828CC4FAE00981DB8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4FCFAF1928CC4FC000981DB8 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				4F0BA77928BFE3A8006B396F /* ContentView.swift in Sources */,
 				4F0BA77728BFE3A8006B396F /* CryptoAppWithSwiftUIApp.swift in Sources */,
+				4FCFAF1A28CC4FC000981DB8 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
