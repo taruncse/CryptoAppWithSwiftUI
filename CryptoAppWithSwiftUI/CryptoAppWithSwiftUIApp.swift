@@ -2,7 +2,6 @@
 //  CryptoAppWithSwiftUIApp.swift
 //  CryptoAppWithSwiftUI
 //
-//  Created by DreamOnline on 1/9/22.
 //
 
 import SwiftUI
@@ -11,7 +10,10 @@ import SwiftUI
 struct CryptoAppWithSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                HomeView()
+                    .navigationBarHidden(true)
+            }
         }
     }
 }

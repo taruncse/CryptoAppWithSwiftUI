@@ -2,7 +2,6 @@
 //  CryptoAppWithSwiftUIUITests.swift
 //  CryptoAppWithSwiftUIUITests
 //
-//  Created by DreamOnline on 1/9/22.
 //
 
 import XCTest
