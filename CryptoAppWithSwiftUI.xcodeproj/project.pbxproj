@@ -15,6 +15,9 @@
 		4F0BA79228BFE3A9006B396F /* CryptoAppWithSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BA79128BFE3A9006B396F /* CryptoAppWithSwiftUIUITests.swift */; };
 		4F0BA79428BFE3A9006B396F /* CryptoAppWithSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BA79328BFE3A9006B396F /* CryptoAppWithSwiftUIUITestsLaunchTests.swift */; };
 		4FCFAF1A28CC4FC000981DB8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCFAF1928CC4FC000981DB8 /* Color.swift */; };
+		4FCFAF1E28CD17DA00981DB8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCFAF1D28CD17DA00981DB8 /* HomeView.swift */; };
+		4FCFAF2228CD21DF00981DB8 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCFAF2128CD21DF00981DB8 /* CircleButtonView.swift */; };
+		4FCFAF2428CDDF7000981DB8 /* CircleButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCFAF2328CDDF7000981DB8 /* CircleButtonAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		4F0BA79128BFE3A9006B396F /* CryptoAppWithSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppWithSwiftUIUITests.swift; sourceTree = "<group>"; };
 		4F0BA79328BFE3A9006B396F /* CryptoAppWithSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppWithSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4FCFAF1928CC4FC000981DB8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		4FCFAF1D28CD17DA00981DB8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4FCFAF2128CD21DF00981DB8 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		4FCFAF2328CDDF7000981DB8 /* CircleButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 		4F0BA77528BFE3A8006B396F /* CryptoAppWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				4FCFAF1B28CD17A700981DB8 /* Core */,
 				4FCFAF1828CC4FAE00981DB8 /* Extensions */,
 				4F0BA77628BFE3A8006B396F /* CryptoAppWithSwiftUIApp.swift */,
 				4F0BA77828BFE3A8006B396F /* ContentView.swift */,
@@ -136,6 +143,40 @@
 				4FCFAF1928CC4FC000981DB8 /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4FCFAF1B28CD17A700981DB8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4FCFAF1F28CD17E100981DB8 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4FCFAF1C28CD17AF00981DB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4FCFAF1D28CD17DA00981DB8 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4FCFAF1F28CD17E100981DB8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4FCFAF2028CD17ED00981DB8 /* ViewModel */,
+				4FCFAF1C28CD17AF00981DB8 /* View */,
+				4FCFAF2128CD21DF00981DB8 /* CircleButtonView.swift */,
+				4FCFAF2328CDDF7000981DB8 /* CircleButtonAnimation.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4FCFAF2028CD17ED00981DB8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +310,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F0BA77928BFE3A8006B396F /* ContentView.swift in Sources */,
+				4FCFAF1E28CD17DA00981DB8 /* HomeView.swift in Sources */,
+				4FCFAF2228CD21DF00981DB8 /* CircleButtonView.swift in Sources */,
 				4F0BA77728BFE3A8006B396F /* CryptoAppWithSwiftUIApp.swift in Sources */,
+				4FCFAF2428CDDF7000981DB8 /* CircleButtonAnimation.swift in Sources */,
 				4FCFAF1A28CC4FC000981DB8 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,19 +12,15 @@ struct ContentView: View {
             Color.theme.background
                 .ignoresSafeArea()
             
-            VStack{
+            VStack(spacing: 40){
                 Text("Hello, world!")
                     .foregroundColor(Color.theme.accent)
-                    .padding()
                 Text("Hello, world!")
                     .foregroundColor(Color.theme.red)
-                    .padding()
                 Text("Hello, world!")
                     .foregroundColor(Color.theme.green)
-                    .padding()
                 Text("Hello, world!")
                     .foregroundColor(Color.theme.secondaryText)
-                    .padding()
                     
             }
         }
